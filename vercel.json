@@ -2,6 +2,14 @@
     "version": 2,
     "rewrites": [
         {
+            "source": "/HireAI/api/:path*",
+            "destination": "http://52.66.210.128:8000/api/:path*"
+        },
+        {
+            "source": "/HireAI/:path*",
+            "destination": "http://52.66.210.128:3000/HireAI/:path*"
+        },
+        {
             "source": "/(.*)",
             "destination": "/server.js"
         }

@@ -19,4 +19,5 @@ Thumbs.db
 # Dev Scripts
 debug_pdf.js
 read_prompt.js
-*.docx
+# Security
+*.pem
